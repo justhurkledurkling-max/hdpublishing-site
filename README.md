@@ -9,7 +9,6 @@ books/index.html                 The list (available, forthcoming, paper goods)
 books/the-mirror-clause/         Product page (one folder per title)
 writer/index.html                The Writer: the app and the ninety-day program
 about/index.html                 The house, standards, seal + press kit, contact
-authors/phoenix-t-bird/          Author page (one folder per author)
 privacy/index.html               Privacy notice for the static site
 404.html                         Not-found page (GitHub Pages serves it automatically)
 assets/site.css                  The one stylesheet; palette and type at the top
@@ -76,7 +75,7 @@ link at `https://hdpublishing.org/`. Less tidy, but no DNS risk to the store.
 
 ## Brand rules used here
 
-Warm Studio palette: cream paper #FBF5EC, espresso #2A241F, claret #8C3A31, honey #C98B3A, band #3B2F2A. The seal keeps its own ink #1C1A17 and claret #7B2D26. PT Sans for the interface, PT Serif for book copy,
+Linen & Sage palette: linen paper #F6F3EC, charcoal #2E2B27, claret #7B2D26, sage #6F8468, moss band #3F4A3A. The seal keeps its own ink #1C1A17 and claret #7B2D26. PT Sans for the interface, PT Serif for book copy,
 headings in Trebuchet MS where the visitor has it (the seal's face), falling back to PT Sans.
 The full seal is never shown below 120 px; the header uses the standard cut. In dark mode the
 reversed seal is used. Logo source and rules: `../brand/logo/README.md`.
