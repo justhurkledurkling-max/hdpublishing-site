@@ -76,7 +76,7 @@ link at `https://hdpublishing.org/`. Less tidy, but no DNS risk to the store.
 
 ## Brand rules used here
 
-Ink #1C1A17, ivory #F4EFE6, claret #7B2D26. PT Sans for the interface, PT Serif for book copy,
+Warm Studio palette: cream paper #FBF5EC, espresso #2A241F, claret #8C3A31, honey #C98B3A, band #3B2F2A. The seal keeps its own ink #1C1A17 and claret #7B2D26. PT Sans for the interface, PT Serif for book copy,
 headings in Trebuchet MS where the visitor has it (the seal's face), falling back to PT Sans.
 The full seal is never shown below 120 px; the header uses the standard cut. In dark mode the
 reversed seal is used. Logo source and rules: `../brand/logo/README.md`.
