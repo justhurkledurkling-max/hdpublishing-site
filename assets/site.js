@@ -1,6 +1,6 @@
 /* H.D. Publishing — site script (no dependencies)
    1. Shop links: every element with data-shop="path" gets its href rewritten to SHOP_BASE + path,
-      so the Shopify address lives in exactly one place (below).
+      so the Shopify address lives in exactly one place (below). Sign-in happens inside the app.
    2. Mobile nav toggle.
    3. Optional theme toggle: any element with data-theme-toggle cycles light/dark and remembers it. */
 
@@ -9,15 +9,10 @@
   // Options: "https://shop.hdpublishing.org/" once the storefront moves to a subdomain,
   // or the store's *.myshopify.com address in the meantime.
   var SHOP_BASE = "https://shop.hdpublishing.org/";
-  var ACCOUNTS = "https://accounts.hdpublishing.org/";
 
   document.querySelectorAll("[data-shop]").forEach(function (a) {
     var path = a.getAttribute("data-shop") || "";
     a.setAttribute("href", SHOP_BASE + path.replace(/^\//, ""));
-    if (!a.getAttribute("rel")) a.setAttribute("rel", "noopener");
-  });
-  document.querySelectorAll("[data-accounts]").forEach(function (a) {
-    a.setAttribute("href", ACCOUNTS);
     if (!a.getAttribute("rel")) a.setAttribute("rel", "noopener");
   });
 

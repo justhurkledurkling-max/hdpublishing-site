@@ -7,7 +7,11 @@ folder with an `index.html` so addresses end in a slash and never in `.html`.
 index.html                       Home
 books/index.html                 The list (available, forthcoming, paper goods)
 books/the-mirror-clause/         Product page (one folder per title)
-writer/index.html                The Writer: the app and the ninety-day program
+writer/index.html                HDPublishingWriter, the app
+pricing/index.html               Plans (Free, Limited, Pro, Editors and Publishers), compare, FAQ
+challenge/index.html             The 90-Day Book Challenge ($499)
+download/index.html              Download for Mac (installer pending: asks by email)
+publishers/index.html            Editors and publishers
 about/index.html                 The house, standards, seal + press kit, contact
 privacy/index.html               Privacy notice for the static site
 404.html                         Not-found page (GitHub Pages serves it automatically)
@@ -32,8 +36,13 @@ then visit http://localhost:8790/.
 
 Buy buttons carry `data-shop="products/<handle>"`. `assets/site.js` rewrites them to
 `SHOP_BASE + path`, so the storefront address is set in one line at the top of that file.
-Same for `data-accounts` (author sign-in at accounts.hdpublishing.org). Change the constant,
-not the pages.
+Change the constant, not the pages.
+
+## Copy source of truth
+
+App pages mirror the Shopify theme at `~/HDPublishingWebsite` (templates/page.pricing.json and
+friends), which in turn follows the app (`~/HDPublishingWriter/src/shared/plans.ts`). When a price
+or plan changes, the app changes first, then the theme, then these pages.
 
 ## Adding a book
 
