@@ -1,4 +1,10 @@
-# hdpublishing.org
+# hdpublishing.org (static draft, superseded)
+
+> **Status, 2026-09-28:** the live site is the Shopify theme at `~/HDPublishingWebsite`
+> (GitHub: justhurkledurkling-max/hdpublishing-theme). This static build was the design
+> and copy draft; its About, Privacy and press-band copy, the Linen & Sage palette and the seal
+> assets were ported into the theme. Keep it as reference; do not point DNS at it.
+
 
 The public website of H.D. Publishing. Static HTML and CSS, no build step. Every page is a
 folder with an `index.html` so addresses end in a slash and never in `.html`.
